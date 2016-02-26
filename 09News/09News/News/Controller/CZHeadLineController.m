@@ -8,6 +8,7 @@
 
 #import "CZHeadLineController.h"
 #import "CZHeadLineCell.h"
+#import "CZApiManager.h"
 @interface CZHeadLineController ()
 @property (weak, nonatomic) IBOutlet UICollectionViewFlowLayout *layout;
 
@@ -21,7 +22,19 @@ static NSString * const reuseIdentifier = @"HeadLine";
     [super viewDidLoad];
     
     [self setupView];
+    [self loadData];
    
+}
+
+/**
+ *   加载头条数据
+ */
+- (void)loadData {
+    [[CZApiManager sharedApi]requestHeadLineDataWithURL:@"ad/headline/0-4.html" success:^(id responseObject) {
+        NSLog(@"%@",responseObject);
+    } error:^(NSError *errorInfo) {
+        NSLog(@"%@",errorInfo);
+    }];
 }
 
 /**

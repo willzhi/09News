@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1A10385E45C46F0C11402BFC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C5819736FD038CB4BA2C10 /* libPods.a */; };
+		B526345A1C7FFB5000A25815 /* CZHTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B52634591C7FFB5000A25815 /* CZHTTPManager.m */; };
+		B526345D1C7FFCDD00A25815 /* CZApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B526345C1C7FFCDD00A25815 /* CZApiManager.m */; };
 		B57093251C7FE83C00C5804D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B57093241C7FE83C00C5804D /* main.m */; };
 		B57093281C7FE83C00C5804D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B57093271C7FE83C00C5804D /* AppDelegate.m */; };
 		B57093301C7FE83C00C5804D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B570932F1C7FE83C00C5804D /* Assets.xcassets */; };
@@ -21,6 +23,10 @@
 		317FD6213C66A3EC392C06C0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		85C5819736FD038CB4BA2C10 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		87DF9012D3546A0716168CDC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B52634581C7FFB5000A25815 /* CZHTTPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZHTTPManager.h; sourceTree = "<group>"; };
+		B52634591C7FFB5000A25815 /* CZHTTPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZHTTPManager.m; sourceTree = "<group>"; };
+		B526345B1C7FFCDD00A25815 /* CZApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZApiManager.h; sourceTree = "<group>"; };
+		B526345C1C7FFCDD00A25815 /* CZApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZApiManager.m; sourceTree = "<group>"; };
 		B57093201C7FE83C00C5804D /* 09News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 09News.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B57093241C7FE83C00C5804D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B57093261C7FE83C00C5804D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,6 +61,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B52634571C7FFB2A00A25815 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				B52634581C7FFB5000A25815 /* CZHTTPManager.h */,
+				B52634591C7FFB5000A25815 /* CZHTTPManager.m */,
+				B526345B1C7FFCDD00A25815 /* CZApiManager.h */,
+				B526345C1C7FFCDD00A25815 /* CZApiManager.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 		B57093171C7FE83C00C5804D = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +93,7 @@
 		B57093221C7FE83C00C5804D /* 09News */ = {
 			isa = PBXGroup;
 			children = (
+				B52634571C7FFB2A00A25815 /* Tool */,
 				B5B636B01C7FF2B4003CE361 /* News */,
 				B57093261C7FE83C00C5804D /* AppDelegate.h */,
 				B57093271C7FE83C00C5804D /* AppDelegate.m */,
@@ -263,7 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B57093281C7FE83C00C5804D /* AppDelegate.m in Sources */,
+				B526345D1C7FFCDD00A25815 /* CZApiManager.m in Sources */,
 				B57093251C7FE83C00C5804D /* main.m in Sources */,
+				B526345A1C7FFB5000A25815 /* CZHTTPManager.m in Sources */,
 				B5B636BB1C7FF79E003CE361 /* CZHeadLineCell.m in Sources */,
 				B5B636B81C7FF454003CE361 /* CZHeadLineController.m in Sources */,
 			);
