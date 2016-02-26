@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="ugb-0I-m8G">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Head Line Controller-->
+        <scene sceneID="yHx-hy-hV3">
+            <objects>
+                <collectionViewController id="ugb-0I-m8G" customClass="CZHeadLineController" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="yhy-Tv-Q18">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="iSu-uU-atu">
+                            <size key="itemSize" width="271" height="364"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HeadLine" id="Vuo-d3-Ebe" customClass="CZHeadLineCell">
+                                <rect key="frame" x="24.5" y="0.0" width="271" height="364"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="271" height="364"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="W7C-tG-5c0">
+                                            <rect key="frame" x="0.0" y="0.0" width="271" height="330"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0gk-WC-Rya">
+                                            <rect key="frame" x="8" y="335" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" translatesAutoresizingMaskIntoConstraints="NO" id="j9I-A1-gDb">
+                                            <rect key="frame" x="208" y="327" width="55" height="37"/>
+                                            <color key="pageIndicatorTintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="currentPageIndicatorTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </pageControl>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="W7C-tG-5c0" secondAttribute="bottom" constant="34" id="5dw-Wy-RI8"/>
+                                    <constraint firstAttribute="bottom" secondItem="0gk-WC-Rya" secondAttribute="bottom" constant="8" id="W6m-4p-rA6"/>
+                                    <constraint firstAttribute="trailing" secondItem="j9I-A1-gDb" secondAttribute="trailing" constant="8" id="eQ2-hs-FOY"/>
+                                    <constraint firstItem="0gk-WC-Rya" firstAttribute="leading" secondItem="Vuo-d3-Ebe" secondAttribute="leading" constant="8" id="h9I-Lv-dpD"/>
+                                    <constraint firstItem="W7C-tG-5c0" firstAttribute="top" secondItem="Vuo-d3-Ebe" secondAttribute="top" id="ksB-Ah-1qa"/>
+                                    <constraint firstAttribute="bottom" secondItem="j9I-A1-gDb" secondAttribute="bottom" id="p9W-49-1iK"/>
+                                    <constraint firstAttribute="trailing" secondItem="W7C-tG-5c0" secondAttribute="trailing" id="s10-Fi-tVT"/>
+                                    <constraint firstItem="W7C-tG-5c0" firstAttribute="leading" secondItem="Vuo-d3-Ebe" secondAttribute="leading" id="tbb-fs-Iyt"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="imageView" destination="W7C-tG-5c0" id="RCG-Vs-C0o"/>
+                                    <outlet property="pageControl" destination="j9I-A1-gDb" id="k9c-bG-FZF"/>
+                                    <outlet property="titleLabel" destination="0gk-WC-Rya" id="hSd-Up-a6Z"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="ugb-0I-m8G" id="vlY-3b-MHA"/>
+                            <outlet property="delegate" destination="ugb-0I-m8G" id="pT9-vp-7s8"/>
+                        </connections>
+                    </collectionView>
+                    <connections>
+                        <outlet property="layout" destination="iSu-uU-atu" id="0Cd-sr-KKd"/>
+                    </connections>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1SM-l5-d3b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="112" y="334"/>
+        </scene>
+    </scenes>
+</document>
