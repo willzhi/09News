@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="live_cell" rowHeight="142" id="bi5-je-Kcg" customClass="MyLiveCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="142"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bi5-je-Kcg" id="inp-wI-nHs">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="141"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oHg-cS-1cx">
+                        <rect key="frame" x="8" y="8" width="304" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="dOA-Bb-ZPX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TaA-87-WMG">
+                        <rect key="frame" x="8" y="36" width="304" height="72"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ykb-iV-mga">
+                        <rect key="frame" x="8" y="116" width="256" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="正在直播" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rbs-Sd-auC">
+                        <rect key="frame" x="272" y="121" width="40" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="ykb-iV-mga" secondAttribute="bottom" constant="8" id="62H-4H-QeT"/>
+                    <constraint firstAttribute="bottom" secondItem="rbs-Sd-auC" secondAttribute="bottom" constant="8" id="9JZ-zT-ol2"/>
+                    <constraint firstItem="TaA-87-WMG" firstAttribute="top" secondItem="oHg-cS-1cx" secondAttribute="bottom" constant="8" id="APZ-IV-ngc"/>
+                    <constraint firstAttribute="trailing" secondItem="oHg-cS-1cx" secondAttribute="trailing" constant="8" id="Nsq-Ud-K7m"/>
+                    <constraint firstItem="oHg-cS-1cx" firstAttribute="leading" secondItem="inp-wI-nHs" secondAttribute="leading" constant="8" id="TAW-Pp-DUl"/>
+                    <constraint firstItem="TaA-87-WMG" firstAttribute="trailing" secondItem="oHg-cS-1cx" secondAttribute="trailing" id="YKj-5g-f0c"/>
+                    <constraint firstItem="rbs-Sd-auC" firstAttribute="leading" secondItem="ykb-iV-mga" secondAttribute="trailing" constant="8" id="a0o-jn-4TM"/>
+                    <constraint firstAttribute="trailing" secondItem="rbs-Sd-auC" secondAttribute="trailing" constant="8" id="btz-pB-FbR"/>
+                    <constraint firstItem="ykb-iV-mga" firstAttribute="leading" secondItem="inp-wI-nHs" secondAttribute="leading" constant="8" id="ec6-vN-ujo"/>
+                    <constraint firstItem="oHg-cS-1cx" firstAttribute="top" secondItem="inp-wI-nHs" secondAttribute="top" constant="8" id="hbo-tB-yNm"/>
+                    <constraint firstItem="TaA-87-WMG" firstAttribute="leading" secondItem="oHg-cS-1cx" secondAttribute="leading" id="j5L-d2-piK"/>
+                    <constraint firstItem="ykb-iV-mga" firstAttribute="top" secondItem="TaA-87-WMG" secondAttribute="bottom" constant="8" id="zb3-8l-Ryo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="digestLable" destination="ykb-iV-mga" id="MmU-Zj-2dL"/>
+                <outlet property="iconView" destination="TaA-87-WMG" id="7Da-OM-ct1"/>
+                <outlet property="titleLable" destination="oHg-cS-1cx" id="UWg-Ao-AwB"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

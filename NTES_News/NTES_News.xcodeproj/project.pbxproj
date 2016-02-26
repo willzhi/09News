@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05AE899ACDB7C722ECB2922E /* libPods-NTES_News.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A99F35ABD521F1B804DC7A /* libPods-NTES_News.a */; };
+		2EADF5FC1C7FE5D500A383FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EADF5FB1C7FE5D500A383FF /* main.m */; };
+		2EADF5FF1C7FE5D500A383FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EADF5FE1C7FE5D500A383FF /* AppDelegate.m */; };
+		2EADF6021C7FE5D500A383FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EADF6011C7FE5D500A383FF /* ViewController.m */; };
+		2EADF6051C7FE5D500A383FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EADF6031C7FE5D500A383FF /* Main.storyboard */; };
+		2EADF6071C7FE5D500A383FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EADF6061C7FE5D500A383FF /* Assets.xcassets */; };
+		2EADF60A1C7FE5D500A383FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EADF6081C7FE5D500A383FF /* LaunchScreen.storyboard */; };
+		2EADF6141C7FE72A00A383FF /* MyTopicViwController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EADF6121C7FE72A00A383FF /* MyTopicViwController.m */; settings = {ASSET_TAGS = (); }; };
+		2EADF6151C7FE72A00A383FF /* MyTopicViwController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EADF6131C7FE72A00A383FF /* MyTopicViwController.xib */; settings = {ASSET_TAGS = (); }; };
+		2EADF6201C7FE7E300A383FF /* MyImageNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EADF6171C7FE7E300A383FF /* MyImageNews.m */; settings = {ASSET_TAGS = (); }; };
+		2EADF6211C7FE7E300A383FF /* MyImageNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EADF6191C7FE7E300A383FF /* MyImageNewsCell.m */; settings = {ASSET_TAGS = (); }; };
+		2EADF6221C7FE7E300A383FF /* MyLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EADF61B1C7FE7E300A383FF /* MyLiveCell.m */; settings = {ASSET_TAGS = (); }; };
+		2EADF6231C7FE7E300A383FF /* MyNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EADF61D1C7FE7E300A383FF /* MyNews.m */; settings = {ASSET_TAGS = (); }; };
+		2EADF6241C7FE7E300A383FF /* MyNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EADF61F1C7FE7E300A383FF /* MyNewsCell.m */; settings = {ASSET_TAGS = (); }; };
+		2EADF6261C7FE81B00A383FF /* MyImageNewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EADF6251C7FE81B00A383FF /* MyImageNewsCell.xib */; settings = {ASSET_TAGS = (); }; };
+		2EADF6291C7FE86200A383FF /* MyLiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EADF6281C7FE86200A383FF /* MyLiveCell.xib */; settings = {ASSET_TAGS = (); }; };
+		2EADF62B1C7FE8A900A383FF /* MyNewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EADF62A1C7FE8A900A383FF /* MyNewsCell.xib */; settings = {ASSET_TAGS = (); }; };
+		2EADF62F1C7FEB7800A383FF /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EADF62D1C7FEB7800A383FF /* NSObject+Extension.m */; settings = {ASSET_TAGS = (); }; };
+		2EADF6331C7FEDA400A383FF /* MyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EADF6321C7FEDA400A383FF /* MyLabel.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2EADF5F71C7FE5D500A383FF /* NTES_News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTES_News.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EADF5FB1C7FE5D500A383FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2EADF5FD1C7FE5D500A383FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2EADF5FE1C7FE5D500A383FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2EADF6001C7FE5D500A383FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2EADF6011C7FE5D500A383FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2EADF6041C7FE5D500A383FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EADF6061C7FE5D500A383FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EADF6091C7FE5D500A383FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EADF60B1C7FE5D500A383FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EADF6111C7FE72A00A383FF /* MyTopicViwController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTopicViwController.h; sourceTree = "<group>"; };
+		2EADF6121C7FE72A00A383FF /* MyTopicViwController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTopicViwController.m; sourceTree = "<group>"; };
+		2EADF6131C7FE72A00A383FF /* MyTopicViwController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTopicViwController.xib; sourceTree = "<group>"; };
+		2EADF6161C7FE7E300A383FF /* MyImageNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImageNews.h; sourceTree = "<group>"; };
+		2EADF6171C7FE7E300A383FF /* MyImageNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImageNews.m; sourceTree = "<group>"; };
+		2EADF6181C7FE7E300A383FF /* MyImageNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImageNewsCell.h; sourceTree = "<group>"; };
+		2EADF6191C7FE7E300A383FF /* MyImageNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImageNewsCell.m; sourceTree = "<group>"; };
+		2EADF61A1C7FE7E300A383FF /* MyLiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLiveCell.h; sourceTree = "<group>"; };
+		2EADF61B1C7FE7E300A383FF /* MyLiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLiveCell.m; sourceTree = "<group>"; };
+		2EADF61C1C7FE7E300A383FF /* MyNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNews.h; sourceTree = "<group>"; };
+		2EADF61D1C7FE7E300A383FF /* MyNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNews.m; sourceTree = "<group>"; };
+		2EADF61E1C7FE7E300A383FF /* MyNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNewsCell.h; sourceTree = "<group>"; };
+		2EADF61F1C7FE7E300A383FF /* MyNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNewsCell.m; sourceTree = "<group>"; };
+		2EADF6251C7FE81B00A383FF /* MyImageNewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyImageNewsCell.xib; sourceTree = "<group>"; };
+		2EADF6281C7FE86200A383FF /* MyLiveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyLiveCell.xib; sourceTree = "<group>"; };
+		2EADF62A1C7FE8A900A383FF /* MyNewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyNewsCell.xib; sourceTree = "<group>"; };
+		2EADF62D1C7FEB7800A383FF /* NSObject+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extension.m"; sourceTree = "<group>"; };
+		2EADF62E1C7FEB7800A383FF /* NSObject+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
+		2EADF6311C7FEDA400A383FF /* MyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLabel.h; sourceTree = "<group>"; };
+		2EADF6321C7FEDA400A383FF /* MyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLabel.m; sourceTree = "<group>"; };
+		45E54D7D1C784A5AD8B4D298 /* Pods-NTES_News.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NTES_News.release.xcconfig"; path = "Pods/Target Support Files/Pods-NTES_News/Pods-NTES_News.release.xcconfig"; sourceTree = "<group>"; };
+		4A09689F7949AC281B089F61 /* Pods-NTES_News.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NTES_News.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NTES_News/Pods-NTES_News.debug.xcconfig"; sourceTree = "<group>"; };
+		D1A99F35ABD521F1B804DC7A /* libPods-NTES_News.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NTES_News.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EADF5F41C7FE5D500A383FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05AE899ACDB7C722ECB2922E /* libPods-NTES_News.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C3AA9BC86C7CD1370F94F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1A99F35ABD521F1B804DC7A /* libPods-NTES_News.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2EADF5EE1C7FE5D500A383FF = {
+			isa = PBXGroup;
+			children = (
+				2EADF5F91C7FE5D500A383FF /* NTES_News */,
+				2EADF5F81C7FE5D500A383FF /* Products */,
+				94920C3A61C6E687AA432A9B /* Pods */,
+				0C3AA9BC86C7CD1370F94F09 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2EADF5F81C7FE5D500A383FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EADF5F71C7FE5D500A383FF /* NTES_News.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EADF5F91C7FE5D500A383FF /* NTES_News */ = {
+			isa = PBXGroup;
+			children = (
+				2EADF5FD1C7FE5D500A383FF /* AppDelegate.h */,
+				2EADF5FE1C7FE5D500A383FF /* AppDelegate.m */,
+				2EADF6001C7FE5D500A383FF /* ViewController.h */,
+				2EADF6011C7FE5D500A383FF /* ViewController.m */,
+				2EADF6111C7FE72A00A383FF /* MyTopicViwController.h */,
+				2EADF6121C7FE72A00A383FF /* MyTopicViwController.m */,
+				2EADF6131C7FE72A00A383FF /* MyTopicViwController.xib */,
+				2EADF6031C7FE5D500A383FF /* Main.storyboard */,
+				2EADF6301C7FEB8D00A383FF /* Other */,
+				2EADF62C1C7FEA1E00A383FF /* Model */,
+				2EADF6271C7FE82A00A383FF /* View */,
+				2EADF5FA1C7FE5D500A383FF /* Supporting Files */,
+			);
+			path = NTES_News;
+			sourceTree = "<group>";
+		};
+		2EADF5FA1C7FE5D500A383FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EADF6081C7FE5D500A383FF /* LaunchScreen.storyboard */,
+				2EADF60B1C7FE5D500A383FF /* Info.plist */,
+				2EADF6061C7FE5D500A383FF /* Assets.xcassets */,
+				2EADF5FB1C7FE5D500A383FF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2EADF6271C7FE82A00A383FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2EADF6311C7FEDA400A383FF /* MyLabel.h */,
+				2EADF6321C7FEDA400A383FF /* MyLabel.m */,
+				2EADF6181C7FE7E300A383FF /* MyImageNewsCell.h */,
+				2EADF6191C7FE7E300A383FF /* MyImageNewsCell.m */,
+				2EADF6251C7FE81B00A383FF /* MyImageNewsCell.xib */,
+				2EADF61A1C7FE7E300A383FF /* MyLiveCell.h */,
+				2EADF61B1C7FE7E300A383FF /* MyLiveCell.m */,
+				2EADF6281C7FE86200A383FF /* MyLiveCell.xib */,
+				2EADF61E1C7FE7E300A383FF /* MyNewsCell.h */,
+				2EADF61F1C7FE7E300A383FF /* MyNewsCell.m */,
+				2EADF62A1C7FE8A900A383FF /* MyNewsCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2EADF62C1C7FEA1E00A383FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2EADF6161C7FE7E300A383FF /* MyImageNews.h */,
+				2EADF6171C7FE7E300A383FF /* MyImageNews.m */,
+				2EADF61C1C7FE7E300A383FF /* MyNews.h */,
+				2EADF61D1C7FE7E300A383FF /* MyNews.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2EADF6301C7FEB8D00A383FF /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2EADF62D1C7FEB7800A383FF /* NSObject+Extension.m */,
+				2EADF62E1C7FEB7800A383FF /* NSObject+Extension.h */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		94920C3A61C6E687AA432A9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A09689F7949AC281B089F61 /* Pods-NTES_News.debug.xcconfig */,
+				45E54D7D1C784A5AD8B4D298 /* Pods-NTES_News.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EADF5F61C7FE5D500A383FF /* NTES_News */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EADF60E1C7FE5D500A383FF /* Build configuration list for PBXNativeTarget "NTES_News" */;
+			buildPhases = (
+				FDED5EB521AD367515E59932 /* Check Pods Manifest.lock */,
+				2EADF5F31C7FE5D500A383FF /* Sources */,
+				2EADF5F41C7FE5D500A383FF /* Frameworks */,
+				2EADF5F51C7FE5D500A383FF /* Resources */,
+				03F690123D8B0D3D08B40993 /* Embed Pods Frameworks */,
+				788250F5A3464DD242BD4079 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NTES_News;
+			productName = NTES_News;
+			productReference = 2EADF5F71C7FE5D500A383FF /* NTES_News.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EADF5EF1C7FE5D500A383FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Detailscool;
+				TargetAttributes = {
+					2EADF5F61C7FE5D500A383FF = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 2EADF5F21C7FE5D500A383FF /* Build configuration list for PBXProject "NTES_News" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EADF5EE1C7FE5D500A383FF;
+			productRefGroup = 2EADF5F81C7FE5D500A383FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EADF5F61C7FE5D500A383FF /* NTES_News */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EADF5F51C7FE5D500A383FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EADF6151C7FE72A00A383FF /* MyTopicViwController.xib in Resources */,
+				2EADF60A1C7FE5D500A383FF /* LaunchScreen.storyboard in Resources */,
+				2EADF6261C7FE81B00A383FF /* MyImageNewsCell.xib in Resources */,
+				2EADF6291C7FE86200A383FF /* MyLiveCell.xib in Resources */,
+				2EADF62B1C7FE8A900A383FF /* MyNewsCell.xib in Resources */,
+				2EADF6071C7FE5D500A383FF /* Assets.xcassets in Resources */,
+				2EADF6051C7FE5D500A383FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03F690123D8B0D3D08B40993 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NTES_News/Pods-NTES_News-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		788250F5A3464DD242BD4079 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NTES_News/Pods-NTES_News-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDED5EB521AD367515E59932 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EADF5F31C7FE5D500A383FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EADF6211C7FE7E300A383FF /* MyImageNewsCell.m in Sources */,
+				2EADF6141C7FE72A00A383FF /* MyTopicViwController.m in Sources */,
+				2EADF6221C7FE7E300A383FF /* MyLiveCell.m in Sources */,
+				2EADF6021C7FE5D500A383FF /* ViewController.m in Sources */,
+				2EADF6241C7FE7E300A383FF /* MyNewsCell.m in Sources */,
+				2EADF6331C7FEDA400A383FF /* MyLabel.m in Sources */,
+				2EADF5FF1C7FE5D500A383FF /* AppDelegate.m in Sources */,
+				2EADF6201C7FE7E300A383FF /* MyImageNews.m in Sources */,
+				2EADF62F1C7FEB7800A383FF /* NSObject+Extension.m in Sources */,
+				2EADF6231C7FE7E300A383FF /* MyNews.m in Sources */,
+				2EADF5FC1C7FE5D500A383FF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2EADF6031C7FE5D500A383FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EADF6041C7FE5D500A383FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EADF6081C7FE5D500A383FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EADF6091C7FE5D500A383FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EADF60C1C7FE5D500A383FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2EADF60D1C7FE5D500A383FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EADF60F1C7FE5D500A383FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A09689F7949AC281B089F61 /* Pods-NTES_News.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NTES_News/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.hehe.NTES-News";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2EADF6101C7FE5D500A383FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45E54D7D1C784A5AD8B4D298 /* Pods-NTES_News.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NTES_News/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.hehe.NTES-News";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EADF5F21C7FE5D500A383FF /* Build configuration list for PBXProject "NTES_News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EADF60C1C7FE5D500A383FF /* Debug */,
+				2EADF60D1C7FE5D500A383FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EADF60E1C7FE5D500A383FF /* Build configuration list for PBXNativeTarget "NTES_News" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EADF60F1C7FE5D500A383FF /* Debug */,
+				2EADF6101C7FE5D500A383FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EADF5EF1C7FE5D500A383FF /* Project object */;
+}

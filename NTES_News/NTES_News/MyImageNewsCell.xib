@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="imageNews_cell" rowHeight="108" id="kIS-Qi-px5" customClass="MyImageNewsCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="108"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kIS-Qi-px5" id="q7Q-CM-R3Q">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="107"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bmX-1D-pTL">
+                        <rect key="frame" x="8" y="8" width="304" height="20"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="HdX-mH-Rw2"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="h2R-Un-53J">
+                        <rect key="frame" x="112" y="36" width="96" height="63"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gQs-1V-3cl">
+                        <rect key="frame" x="216" y="36" width="96" height="63"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UkT-AH-mXS">
+                        <rect key="frame" x="8" y="36" width="96" height="63"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="UkT-AH-mXS" firstAttribute="leading" secondItem="q7Q-CM-R3Q" secondAttribute="leading" constant="8" id="0JK-1Q-1Fk"/>
+                    <constraint firstItem="h2R-Un-53J" firstAttribute="width" secondItem="UkT-AH-mXS" secondAttribute="width" id="4vh-Zi-Zog"/>
+                    <constraint firstAttribute="trailing" secondItem="gQs-1V-3cl" secondAttribute="trailing" constant="8" id="8A7-AT-EQQ"/>
+                    <constraint firstAttribute="bottom" secondItem="UkT-AH-mXS" secondAttribute="bottom" constant="8" id="BkQ-kJ-5af"/>
+                    <constraint firstItem="h2R-Un-53J" firstAttribute="bottom" secondItem="UkT-AH-mXS" secondAttribute="bottom" id="MXd-fa-0vk"/>
+                    <constraint firstItem="gQs-1V-3cl" firstAttribute="bottom" secondItem="h2R-Un-53J" secondAttribute="bottom" id="PR8-ZN-OLf"/>
+                    <constraint firstItem="gQs-1V-3cl" firstAttribute="top" secondItem="h2R-Un-53J" secondAttribute="top" id="WZe-rc-R1U"/>
+                    <constraint firstItem="UkT-AH-mXS" firstAttribute="top" secondItem="bmX-1D-pTL" secondAttribute="bottom" constant="8" id="c2S-uQ-Lgk"/>
+                    <constraint firstItem="gQs-1V-3cl" firstAttribute="width" secondItem="UkT-AH-mXS" secondAttribute="width" id="dHh-XW-nov"/>
+                    <constraint firstItem="gQs-1V-3cl" firstAttribute="leading" secondItem="h2R-Un-53J" secondAttribute="trailing" constant="8" id="e3i-j6-cvb"/>
+                    <constraint firstItem="h2R-Un-53J" firstAttribute="leading" secondItem="UkT-AH-mXS" secondAttribute="trailing" constant="8" id="ibc-gR-Mok"/>
+                    <constraint firstItem="bmX-1D-pTL" firstAttribute="leading" secondItem="q7Q-CM-R3Q" secondAttribute="leading" constant="8" id="nt5-ra-H0k"/>
+                    <constraint firstItem="bmX-1D-pTL" firstAttribute="top" secondItem="q7Q-CM-R3Q" secondAttribute="top" constant="8" id="q8Z-e1-vOE"/>
+                    <constraint firstItem="h2R-Un-53J" firstAttribute="top" secondItem="UkT-AH-mXS" secondAttribute="top" id="vGv-W3-tiH"/>
+                    <constraint firstAttribute="trailing" secondItem="bmX-1D-pTL" secondAttribute="trailing" constant="8" id="xnB-AS-8k6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="iconVIew1" destination="UkT-AH-mXS" id="3K3-ch-ssu"/>
+                <outlet property="iconVIew2" destination="h2R-Un-53J" id="btn-F4-h9I"/>
+                <outlet property="iconVIew3" destination="gQs-1V-3cl" id="dnz-7N-LKz"/>
+                <outlet property="titleLabel" destination="bmX-1D-pTL" id="l5m-AH-Pxj"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

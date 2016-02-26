@@ -1,0 +1,9 @@
+platform:ios,'9.0'
+
+target "NTES_News" do
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'YYModel'
+pod 'MJRefresh'
+end
+
